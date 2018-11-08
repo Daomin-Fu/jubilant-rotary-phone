@@ -14,6 +14,7 @@ public class WXPay {
 	private String notifyUrl;
 	private WXPayRequest wxPayRequest;
 
+	// 1111
 	public WXPay(final WXPayConfig config) throws Exception {
 		this(config, null, true, false);
 	}
